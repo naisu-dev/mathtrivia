@@ -4,8 +4,6 @@ name: braipy
 # 発火タイミング
 on:
   workflow_dispatch:
-  project:
-    types: [created, deleted, edited]
 
 jobs:
   build:
