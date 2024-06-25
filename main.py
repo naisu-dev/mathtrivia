@@ -1,4 +1,4 @@
 import requests
 import json
 
-print(json.loads(requests.get("http://numbersapi.com/random/trivia").text))
+print((requests.get("http://numbersapi.com/random/trivia").text))
