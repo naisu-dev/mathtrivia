@@ -23,6 +23,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           pip install argostranslate
+          # 翻訳
+          argospm update
+          argospm install translate-en_ja
       - name: Run script
         run: |
           python main.py
