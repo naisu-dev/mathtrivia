@@ -9,4 +9,4 @@ translatedText = argostranslate.translate.translate(requests.get("http://numbers
 print(translatedText)
 
 with open("readme.md", mode="w", encoding="utf-8") as f:
-  f.wright(translatedText)
+  f.write(translatedText)
