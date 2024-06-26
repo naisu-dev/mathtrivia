@@ -8,5 +8,5 @@ to_code = "ja"
 translatedText = argostranslate.translate.translate(requests.get("http://numbersapi.com/random/trivia").text, from_code, to_code)
 print(translatedText)
 
-with open("readme.md", "w", encording="utf-8") as f:
+with open("readme.md", mode="w", encoding="utf-8") as f:
   f.wright(translatedText)
